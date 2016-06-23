@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA3DF27E1D1C67BC000681CB /* Mouse.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3DF27D1D1C67BC000681CB /* Mouse.m */; };
+		AA3DF2811D1C67CA000681CB /* MazePoint.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3DF2801D1C67CA000681CB /* MazePoint.m */; };
+		AA3DF2841D1C6E9C000681CB /* Maze.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3DF2831D1C6E9C000681CB /* Maze.m */; };
 		AAE0FF4C1D1B34DC0075D979 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE0FF4B1D1B34DC0075D979 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +26,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AA3DF27C1D1C67BC000681CB /* Mouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mouse.h; sourceTree = "<group>"; };
+		AA3DF27D1D1C67BC000681CB /* Mouse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mouse.m; sourceTree = "<group>"; };
+		AA3DF27F1D1C67CA000681CB /* MazePoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MazePoint.h; sourceTree = "<group>"; };
+		AA3DF2801D1C67CA000681CB /* MazePoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MazePoint.m; sourceTree = "<group>"; };
+		AA3DF2821D1C6E9C000681CB /* Maze.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Maze.h; sourceTree = "<group>"; };
+		AA3DF2831D1C6E9C000681CB /* Maze.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Maze.m; sourceTree = "<group>"; };
 		AAE0FF481D1B34DC0075D979 /* MouseMaze */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MouseMaze; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAE0FF4B1D1B34DC0075D979 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,6 +66,12 @@
 		AAE0FF4A1D1B34DC0075D979 /* MouseMaze */ = {
 			isa = PBXGroup;
 			children = (
+				AA3DF27C1D1C67BC000681CB /* Mouse.h */,
+				AA3DF27D1D1C67BC000681CB /* Mouse.m */,
+				AA3DF27F1D1C67CA000681CB /* MazePoint.h */,
+				AA3DF2801D1C67CA000681CB /* MazePoint.m */,
+				AA3DF2821D1C6E9C000681CB /* Maze.h */,
+				AA3DF2831D1C6E9C000681CB /* Maze.m */,
 				AAE0FF4B1D1B34DC0075D979 /* main.m */,
 			);
 			path = MouseMaze;
@@ -119,6 +134,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAE0FF4C1D1B34DC0075D979 /* main.m in Sources */,
+				AA3DF27E1D1C67BC000681CB /* Mouse.m in Sources */,
+				AA3DF2841D1C6E9C000681CB /* Maze.m in Sources */,
+				AA3DF2811D1C67CA000681CB /* MazePoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +257,7 @@
 				AAE0FF511D1B34DC0075D979 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
